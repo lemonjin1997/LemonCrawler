@@ -1,0 +1,23 @@
+{
+    "ScarpingWebsiteSubString" : "https://www.channelnewsasia.com/*",
+    "Tool" : "selenium",
+    "Field": {
+        "Title": "Company Name",
+        "SelectionType" : "css selector",
+        "WebElementSelector" : "#block-mc-cna-theme-mainpagecontent > article > div.content > div:nth-child(2) > div > section > div > h1",
+        "DataType" : "text"
+    },
+    "Field1": {
+        "Title": "Company Logo",
+        "SelectionType" : "xpath",
+        "WebElementSelector": "//*[@id='block-mc-cna-theme-mainpagecontent']/article/div[1]/div[3]/div[1]/section/figure/picture/img",
+        "DataType" : "picture"
+    },
+    "Field2": {
+        "Title": "Company Description",
+        "SelectionType" : "xpath",
+        "WebElementSelector" : "//*[@id='block-mc-cna-theme-mainpagecontent']/article[1]/div[1]/div[4]/div[1]/section[1]/div/div/div",
+        "DataType" : "text"
+    }
+    
+}
